@@ -1,0 +1,13 @@
+[Program]
+Country = AUS
+
+[Max]
+F3J = 10
+F3JFO = 15
+F3B = 7
+8-11 = 8
+Club = 5
+
+[F3B]
+DisplayTaskC = 1
+

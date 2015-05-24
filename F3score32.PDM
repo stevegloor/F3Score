@@ -1,0 +1,374 @@
+[Root]
+Most Recent Package=Standard Setup Package 2
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\Visual Basic\Version 4.1\dist
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=Yes
+Xbase=No
+Excel=No
+Text=No
+Jet 2.x=No
+Lotus=No
+Paradox=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+Data.mdb=D:\Visual Basic\Version 4.1\Data.mdb
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+C:\WINNT\system32\IniCon32.OCX=
+C:\Program Files\Common Files\System\ADO\msadomd.dll=
+C:\WINNT\system32\msadomd.dll=
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+
+[Package|Standard Setup Package 1|Files Added]
+data.mdb=
+f3brules.wri=
+f3jrules.wri=
+f3jscore.rtf=
+f3score.ini=
+f3score.txt=
+freq.mdb=
+readme.txt=
+readme.wri=
+f3bjrules.pdf=
+
+[Package|Standard Setup Package 1|Files Removed]
+d:\visual basic\version 4.02\f3brules.wri=
+d:\visual basic\version 4.02\f3jrules.wri=
+c:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\mdac_typ.exe=
+
+[Package|Standard Setup Package 1|Files In Project]
+C:\WINNT\system32\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO2535.TLB=Yes
+C:\Program Files\Common Files\Microsoft Shared\DAO\dao350.dll=Yes
+C:\WINNT\system32\MSJET35.DLL=Yes
+C:\WINNT\system32\MSJTER35.DLL=Yes
+C:\WINNT\system32\MSJINT35.DLL=Yes
+C:\WINNT\system32\vbajet32.dll=Yes
+C:\WINNT\system32\expsrv.dll=Yes
+C:\WINNT\system32\MSRD2X35.DLL=Yes
+C:\WINNT\system32\MSREPL35.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+C:\WINNT\system32\VB5DB.DLL=Yes
+C:\WINNT\system32\MSBIND.DLL=Yes
+C:\WINNT\system32\MSSTDFMT.DLL=Yes
+C:\WINNT\system32\TABCTL32.OCX=Yes
+C:\WINNT\system32\DBLIST32.OCX=Yes
+C:\WINNT\system32\DBGRID32.OCX=Yes
+C:\WINNT\system32\MSFLXGRD.OCX=Yes
+C:\WINNT\system32\IniCon32.OCX=Yes
+C:\WINNT\system32\comdlg32.ocx=Yes
+C:\WINNT\system32\MSDATGRD.OCX=Yes
+C:\WINNT\system32\MSADODC.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\WINNT\system32\msadomd.dll=Yes
+D:\Visual Basic\Version 4.1\F3score32.exe=Yes
+D:\Visual Basic\Version 4.1\Data.mdb=Yes
+D:\Visual Basic\Version 4.1\F3brules.wri=Yes
+D:\Visual Basic\Version 4.1\F3JRULES.WRI=Yes
+D:\Visual Basic\Version 4.1\F3JSCORE.RTF=Yes
+D:\Visual Basic\Version 4.1\F3SCORE.ini=Yes
+D:\Visual Basic\Version 4.1\F3SCORE.txt=Yes
+D:\Visual Basic\Version 4.1\Freq.mdb=Yes
+D:\Visual Basic\Version 4.1\README.TXT=Yes
+D:\Visual Basic\Version 4.1\README.WRI=Yes
+D:\Visual Basic\Version 4.1\f3bjrules.pdf=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+D:\Visual Basic\Version 4.02\F3score32.exe=$(AppPath)
+C:\WINNT\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO2535.TLB=$(MSDAOPath)
+C:\Program Files\Common Files\Microsoft Shared\DAO\dao350.dll=$(MSDAOPath)
+C:\WINNT\system32\MSJET35.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\MSJTER35.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\expsrv.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\MSRD2X35.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\MSREPL35.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\VB5DB.DLL=$(WinSysPath)
+C:\Program Files\Common Files\System\ADO\msadomd.dll=$(WinSysPath)
+C:\WINNT\system32\MSBIND.DLL=$(WinSysPath)
+C:\WINNT\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINNT\system32\TABCTL32.OCX=$(WinSysPath)
+C:\WINNT\system32\DBLIST32.OCX=$(WinSysPath)
+C:\WINNT\system32\DBGRID32.OCX=$(WinSysPath)
+C:\WINNT\system32\MSFLXGRD.OCX=$(WinSysPath)
+C:\WINNT\system32\IniCon32.OCX=$(WinSysPath)
+C:\WINNT\system32\comdlg32.ocx=$(WinSysPath)
+C:\WINNT\system32\MSDATGRD.OCX=$(WinSysPath)
+C:\WINNT\system32\MSADODC.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\Visual Basic\Version 4.02\Data.mdb=$(AppPath)
+D:\Visual Basic\Version 4.02\F3brules.wri=$(AppPath)
+D:\Visual Basic\Version 4.02\F3JRULES.WRI=$(AppPath)
+D:\Visual Basic\Version 4.02\F3JSCORE.RTF=$(AppPath)
+D:\Visual Basic\Version 4.02\F3SCORE.ini=$(AppPath)
+D:\Visual Basic\Version 4.02\F3SCORE.txt=$(AppPath)
+D:\Visual Basic\Version 4.02\Freq.mdb=$(AppPath)
+D:\Visual Basic\Version 4.02\README.TXT=$(AppPath)
+C:\WINNT\system32\msadomd.dll=$(WinSysPath)
+D:\Visual Basic\Version 4.02\README.WRI=$(AppPath)
+D:\Visual Basic\Version 4.02\f3bjrules.pdf=$(AppPath)
+D:\Visual Basic\Version 4.1\F3score32.exe=$(AppPath)
+D:\Visual Basic\Version 4.1\Data.mdb=$(AppPath)
+D:\Visual Basic\Version 4.1\F3brules.wri=$(AppPath)
+D:\Visual Basic\Version 4.1\F3JRULES.WRI=$(AppPath)
+D:\Visual Basic\Version 4.1\F3JSCORE.RTF=$(AppPath)
+D:\Visual Basic\Version 4.1\F3SCORE.ini=$(AppPath)
+D:\Visual Basic\Version 4.1\F3SCORE.txt=$(AppPath)
+D:\Visual Basic\Version 4.1\Freq.mdb=$(AppPath)
+D:\Visual Basic\Version 4.1\README.TXT=$(AppPath)
+D:\Visual Basic\Version 4.1\README.WRI=$(AppPath)
+D:\Visual Basic\Version 4.1\f3bjrules.pdf=$(AppPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+D:\Visual Basic\Version 4.02\F3score32.exe=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+D:\Visual Basic\Version 4.02\Data.mdb=No
+D:\Visual Basic\Version 4.02\F3brules.wri=No
+D:\Visual Basic\Version 4.02\F3JRULES.WRI=No
+D:\Visual Basic\Version 4.02\F3JSCORE.RTF=No
+D:\Visual Basic\Version 4.02\F3SCORE.ini=No
+D:\Visual Basic\Version 4.02\F3SCORE.txt=No
+D:\Visual Basic\Version 4.02\Freq.mdb=No
+D:\Visual Basic\Version 4.02\README.TXT=No
+D:\Visual Basic\Version 4.02\README.WRI=No
+D:\Visual Basic\Version 4.02\f3bjrules.pdf=No
+D:\Visual Basic\Version 4.1\F3score32.exe=No
+D:\Visual Basic\Version 4.1\Data.mdb=No
+D:\Visual Basic\Version 4.1\F3brules.wri=No
+D:\Visual Basic\Version 4.1\F3JRULES.WRI=No
+D:\Visual Basic\Version 4.1\F3JSCORE.RTF=No
+D:\Visual Basic\Version 4.1\F3SCORE.ini=No
+D:\Visual Basic\Version 4.1\F3SCORE.txt=No
+D:\Visual Basic\Version 4.1\Freq.mdb=No
+D:\Visual Basic\Version 4.1\README.TXT=No
+D:\Visual Basic\Version 4.1\README.WRI=No
+D:\Visual Basic\Version 4.1\f3bjrules.pdf=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=F3 Score 32
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=F3 Score 32
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|F3 Score 32]
+Icon1=F3score32.exe
+Title1=F3 Score 32
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=D:\Visual Basic\Version 4.1\dist
+ProjectFolder=D:\Visual Basic\Version 4.1
+ServerSideCab=
+File1=D:\Visual Basic\Version 4.1\dist\setup.exe
+File2=D:\Visual Basic\Version 4.1\dist\Setup.Lst
+File3=D:\Visual Basic\Version 4.1\dist\F3score32.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Standard Setup Package 2|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\Visual Basic\Version 4.1\dist
+
+[Package|Standard Setup Package 2|Configure DAO ISAMs]
+Applicable=Yes
+Xbase=No
+Excel=No
+Text=No
+Jet 2.x=No
+Lotus=No
+Paradox=No
+
+[Package|Standard Setup Package 2|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 2|Files Found]
+
+[Package|Standard Setup Package 2|Files Released]
+
+[Package|Standard Setup Package 2|Missing Dependency Information]
+C:\WINNT\system32\IniCon32.OCX=
+C:\WINNT\system32\msadomd.dll=
+
+[Package|Standard Setup Package 2|Out-of-Date Dependency Information]
+
+[Package|Standard Setup Package 2|Files Added]
+D:\Visual Basic\Version 4.1\F3SCORE.ini=
+D:\Visual Basic\Version 4.1\f3bjrules.pdf=
+D:\Visual Basic\Version 4.1\Data.mdb=
+D:\Visual Basic\Version 4.1\Freq.mdb=
+D:\Visual Basic\Version 4.1\Freq1.mdb=
+D:\Visual Basic\Version 4.1\F3JSCORE.HLP=
+
+[Package|Standard Setup Package 2|Files Removed]
+c:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\mdac_typ.exe=
+d:\visual basic\version 4.1\freq1.mdb=
+
+[Package|Standard Setup Package 2|Files In Project]
+D:\Visual Basic\Version 4.1\F3score32.exe=Yes
+C:\WINNT\system32\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO2535.TLB=Yes
+C:\Program Files\Common Files\Microsoft Shared\DAO\dao350.dll=Yes
+C:\WINNT\system32\MSJET35.DLL=Yes
+C:\WINNT\system32\MSJTER35.DLL=Yes
+C:\WINNT\system32\MSJINT35.DLL=Yes
+C:\WINNT\system32\vbajet32.dll=Yes
+C:\WINNT\system32\expsrv.dll=Yes
+C:\WINNT\system32\MSRD2X35.DLL=Yes
+C:\WINNT\system32\MSREPL35.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+C:\WINNT\system32\VB5DB.DLL=Yes
+C:\WINNT\system32\msadomd.dll=Yes
+C:\WINNT\system32\MSBIND.DLL=Yes
+C:\WINNT\system32\MSSTDFMT.DLL=Yes
+C:\WINNT\system32\TABCTL32.OCX=Yes
+C:\WINNT\system32\DBLIST32.OCX=Yes
+C:\WINNT\system32\DBGRID32.OCX=Yes
+C:\WINNT\system32\MSFLXGRD.OCX=Yes
+C:\WINNT\system32\IniCon32.OCX=Yes
+C:\WINNT\system32\comdlg32.ocx=Yes
+C:\WINNT\system32\MSDATGRD.OCX=Yes
+C:\WINNT\system32\MSADODC.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+D:\Visual Basic\Version 4.1\F3SCORE.ini=Yes
+D:\Visual Basic\Version 4.1\f3bjrules.pdf=Yes
+D:\Visual Basic\Version 4.1\Data.mdb=Yes
+D:\Visual Basic\Version 4.1\Freq.mdb=Yes
+D:\Visual Basic\Version 4.1\Freq1.mdb=No
+D:\Visual Basic\Version 4.1\F3JSCORE.HLP=Yes
+
+[Package|Standard Setup Package 2|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 2|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 2|Install Locations]
+D:\Visual Basic\Version 4.1\F3score32.exe=$(AppPath)
+C:\WINNT\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO2535.TLB=$(MSDAOPath)
+C:\Program Files\Common Files\Microsoft Shared\DAO\dao350.dll=$(MSDAOPath)
+C:\WINNT\system32\MSJET35.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\MSJTER35.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\expsrv.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\MSRD2X35.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\MSREPL35.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\VB5DB.DLL=$(WinSysPath)
+C:\WINNT\system32\msadomd.dll=$(WinSysPath)
+C:\WINNT\system32\MSBIND.DLL=$(WinSysPath)
+C:\WINNT\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINNT\system32\TABCTL32.OCX=$(WinSysPath)
+C:\WINNT\system32\DBLIST32.OCX=$(WinSysPath)
+C:\WINNT\system32\DBGRID32.OCX=$(WinSysPath)
+C:\WINNT\system32\MSFLXGRD.OCX=$(WinSysPath)
+C:\WINNT\system32\IniCon32.OCX=$(WinSysPath)
+C:\WINNT\system32\comdlg32.ocx=$(WinSysPath)
+C:\WINNT\system32\MSDATGRD.OCX=$(WinSysPath)
+C:\WINNT\system32\MSADODC.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\Visual Basic\Version 4.1\F3SCORE.ini=$(AppPath)
+D:\Visual Basic\Version 4.1\f3bjrules.pdf=$(AppPath)
+D:\Visual Basic\Version 4.1\Data.mdb=$(AppPath)
+D:\Visual Basic\Version 4.1\Freq.mdb=$(AppPath)
+D:\Visual Basic\Version 4.1\F3JSCORE.HLP=$(AppPath)
+
+[Package|Standard Setup Package 2|Configure Shared Files]
+Applicable=Yes
+D:\Visual Basic\Version 4.1\F3score32.exe=No
+D:\Visual Basic\Version 4.1\F3SCORE.ini=No
+D:\Visual Basic\Version 4.1\f3bjrules.pdf=No
+D:\Visual Basic\Version 4.1\Data.mdb=No
+D:\Visual Basic\Version 4.1\Freq.mdb=No
+D:\Visual Basic\Version 4.1\F3JSCORE.HLP=No
+
+[Package|Standard Setup Package 2|Distribution]
+Type=single
+Size=
+Title=F3Score32
+
+[Package|Standard Setup Package 2|IconGroups]
+Group0=F3Score32
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 2|F3Score32]
+Icon1=F3score32.exe
+Title1=F3Score32
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 2|Package]
+PackageFolder=D:\Visual Basic\Version 4.1\dist
+ProjectFolder=D:\Visual Basic\Version 4.1
+ServerSideCab=
+File1=D:\Visual Basic\Version 4.1\dist\setup.exe
+File2=D:\Visual Basic\Version 4.1\dist\Setup.Lst
+File3=D:\Visual Basic\Version 4.1\dist\F3score32.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
